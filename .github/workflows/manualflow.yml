@@ -1,0 +1,11 @@
+name: manual-main
+on:
+  workflow_dispatch:
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo something
+        run: |
+            echo hello world
+        shell: bash
