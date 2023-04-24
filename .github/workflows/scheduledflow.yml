@@ -2,7 +2,7 @@ name: lighthouse-main
 on:
   schedule:
     - cron: '*/5 * * * *'
-
+  workflow_dispatch:
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
